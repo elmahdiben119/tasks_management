@@ -23,6 +23,9 @@ git clone https://github.com/elmahdiben119/tasks_management.git
 cd tasks_management
 ```
 ```
+npm i && npm run watch
+```
+```
 php artisan migrate
 ```
 ```
