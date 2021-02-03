@@ -13,7 +13,7 @@ A simple app of Tasks Management
 ## Installing
 In mysql
 ```
-create database tasks_management
+create database tasks_management;
 ```
 In Terminal
 ```
