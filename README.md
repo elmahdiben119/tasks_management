@@ -12,9 +12,19 @@ A simple app of Tasks Management
 
 ## Installing
 In mysql
-$ create database tasks_management
+```
+create database tasks_management
+```
 In Terminal
-$ git clone https://github.com/elmahdiben119/tasks_management.git
-$ cd tasks_management
-$ php artisan migrate
-$ php artisan serve
+```
+git clone https://github.com/elmahdiben119/tasks_management.git
+```
+```
+cd tasks_management
+```
+```
+php artisan migrate
+```
+```
+php artisan serve
+```
