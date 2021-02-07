@@ -31,3 +31,8 @@ php artisan migrate
 ```
 php artisan serve
 ```
+## Auth Credentials
+Email :
+m.machin@gmail.com
+Password
+m.machin@gmail.com
