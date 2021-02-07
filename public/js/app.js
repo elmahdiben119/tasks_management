@@ -37646,7 +37646,7 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("Edit")]
+                    [_c("i", { staticClass: "fas fa-edit" }), _vm._v(" Edit")]
                   )
                 ]),
                 _vm._v(" "),
@@ -37661,7 +37661,13 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("Delete")]
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-trash",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" Delete")
+                    ]
                   )
                 ])
               ])
@@ -37671,14 +37677,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticClass: "btn badge badge-success",
-          attrs: { "data-toggle": "modal", "data-target": "#modelCreate" }
-        },
-        [_vm._v("Add New Task")]
-      )
+      _vm._m(1)
     ]),
     _vm._v(" "),
     _c(
@@ -37699,7 +37698,7 @@ var render = function() {
           { staticClass: "modal-dialog", attrs: { role: "document" } },
           [
             _c("div", { staticClass: "modal-content" }, [
-              _vm._m(1),
+              _vm._m(2),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("form", { attrs: { id: "formUpdate" } }, [
@@ -37942,7 +37941,7 @@ var render = function() {
           { staticClass: "modal-dialog", attrs: { role: "document" } },
           [
             _c("div", { staticClass: "modal-content" }, [
-              _vm._m(2),
+              _vm._m(3),
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("form", { attrs: { id: "formUpdate" } }, [
@@ -38274,6 +38273,25 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "btn badge badge-success",
+        attrs: { "data-toggle": "modal", "data-target": "#modelCreate" }
+      },
+      [
+        _c("i", {
+          staticClass: "fa fa-plus-circle",
+          attrs: { "aria-hidden": "true" }
+        }),
+        _vm._v(" New Task")
+      ]
+    )
   },
   function() {
     var _vm = this

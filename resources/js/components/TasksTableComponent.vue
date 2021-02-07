@@ -24,15 +24,15 @@
             <td>{{ task.task_type }}</td>
             <td>{{ task.status }}</td>
             <td>
-              <button class="btn badge badge-primary" @click="get(task.id)" data-toggle="modal" data-target="#modelId">Edit</button>
+              <button class="btn badge badge-primary" @click="get(task.id)" data-toggle="modal" data-target="#modelId"><i class="fas fa-edit"></i> Edit</button>
             </td>
             <td>
-              <button class="btn badge badge-danger" @click="destroy(task.id)">Delete</button>
+              <button class="btn badge badge-danger" @click="destroy(task.id)"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
             </td>
           </tr>
         </tbody>
       </table>
-      <button class="btn badge badge-success" data-toggle="modal" data-target="#modelCreate">Add New Task</button>
+      <button class="btn badge badge-success" data-toggle="modal" data-target="#modelCreate"><i class="fa fa-plus-circle" aria-hidden="true"></i> New Task</button>
     </div>
 
     <!-- Add New Modal -->
