@@ -23,6 +23,9 @@ npm i && npm run dev && composer i
 php artisan migrate
 ```
 ```
+php artisan key:generate 
+```
+```
 php artisan serve
 ```
 ## Auth Credentials
