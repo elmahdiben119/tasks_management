@@ -17,7 +17,7 @@ git clone https://github.com/elmahdiben119/tasks_management.git
 cd tasks_management
 ```
 ```
-npm i && npm run dev
+npm i && npm run dev && composer i
 ```
 ```
 php artisan migrate
