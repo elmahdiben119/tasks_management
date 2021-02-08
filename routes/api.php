@@ -20,7 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::group([/* 'middleware' => ['auth:api'] ,*/'prefix' => 'tasks'], function () {
+Route::group(['middleware' => ['auth:api'] ,'prefix' => 'tasks'], function () {
     Route::get('/{user_id}', [TaskController::class, 'index']);
     Route::get('/get/{id}', [TaskController::class, 'show']);
     Route::post('/create', [TaskController::class, 'create']);
@@ -29,6 +29,6 @@ Route::group([/* 'middleware' => ['auth:api'] ,*/'prefix' => 'tasks'], function 
     Route::get('/{id}/type', [TaskController::class, 'type']);
 });
 
-Route::group([/* 'middleware' => ['auth:api'] ,*/'prefix' => 'types'], function () {
+Route::group(['middleware' => ['auth:api'] ,'prefix' => 'types'], function () {
     Route::get('/', [TypeController::class, 'index']);
 });

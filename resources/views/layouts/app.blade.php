@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="user_id" content="{{ Auth::id() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-512/laravel-226015.png" type="image/x-icon">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -42,7 +42,7 @@
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
-                            
+
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -76,6 +76,6 @@
             @yield('content')
         </main>
     </div>
-    <script async src="{{mix('js/app.js')}}"></script>
+    <script async src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

@@ -216,8 +216,8 @@ export default {
           })
         .catch((error) => console.error(error));
     },
-    
-    
+
+
     destroy(id) {
       axios
         .delete(`api/tasks/${id}/destroy`)
