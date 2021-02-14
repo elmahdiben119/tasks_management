@@ -19,7 +19,7 @@ cd tasks_management
 ```
 npm i && npm run dev && composer i
 ```
-Create a .env file and copy the .env.example content and paste in .env
+# Create a .env file and copy the .env.example content and paste in .env
 ```
 php artisan migrate
 ```
