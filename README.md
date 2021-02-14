@@ -24,9 +24,6 @@ Create a .env file and copy the .env.example content and paste in .env
 php artisan migrate
 ```
 ```
-php artisan key:generate 
-```
-```
 php artisan serve
 ```
 ## Auth Credentials
