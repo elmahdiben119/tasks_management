@@ -17,6 +17,15 @@ git clone https://github.com/elmahdiben119/tasks_management.git
 cd tasks_management
 ```
 ```
+php artisan config:clear
+```
+```
+php artisan key:generate
+```
+```
+composer dump-autoload
+```
+```
 npm i && npm run dev && composer i
 ```
 ### Create a .env file and copy the .env.example content and paste in .env
